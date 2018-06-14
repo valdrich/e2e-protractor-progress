@@ -1,0 +1,4 @@
+node_modules/*
+*.page.js
+*.spec.js
+protractor.conf.js
