@@ -1,5 +1,5 @@
 {
-  "name": "automation",
+  "name": "e2e-protractor-progress",
   "version": "1.0.0",
   "description": "Scripts de testes automatizados FRAMEWORK - Progress",
   "author": "TOTVS S.A.",
@@ -7,12 +7,8 @@
   "repository": "",
   "dependencies": {
     "@types/get-port": "^3.2.0",
-    "gulp-tasklist": "^0.0.1",
-    "gulp-tasklist-run": "^1.0.0",
-    "newman": "*",
     "shelljs": "^0.7.8",
     "sync-request": "*",
-    "tsc": "^1.20150623.0",
     "webdriver-manager": "^12.0.6"
   },
   "devDependencies": {
@@ -21,11 +17,6 @@
     "@types/jasminewd2": "^2.0.2",
     "@types/node": "^8.9.1",
     "@types/shelljs": "^0.7.2",
-    "gulp": "^3.9.1",
-    "gulp-protractor": "^4.1.0",
-    "gulp-tasklist": "^0.0.1",
-    "gulp-tasklist-run": "^1.0.0",
-    "gulp-typescript": "^3.2.4",
     "jasmine": "^2.99.0",
     "jasmine-reporters": "^2.3.0",
     "protractor": "^5.3.2",
@@ -33,7 +24,7 @@
   },
   "scripts": {
     "clean": "webdriver-manager clean",
-    "update": "webdriver-manager update && update",
+    "update": "webdriver-manager update",
     "test": "protractor e2e/conf/protractor.conf.js"
   }
 }
