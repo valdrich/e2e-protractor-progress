@@ -1,0 +1,19 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "strict": true,
+        "sourceMap": false,
+        "module": "commonjs",
+        "removeComments": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "watch": true
+    },
+    "include": [
+        "**/**.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
